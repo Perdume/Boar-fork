@@ -12,6 +12,7 @@ import ac.boar.anticheat.packets.server.ServerChunkPackets;
 import ac.boar.anticheat.packets.server.ServerEntityPackets;
 import ac.boar.anticheat.packets.server.ServerDataPackets;
 import ac.boar.geyser.GeyserBoar;
+import ac.boar.geyser.util.ViaVersionUtil;
 import ac.boar.mappings.BlockMappings;
 import lombok.Getter;
 
@@ -37,6 +38,7 @@ public class Boar {
         // System.out.println("Load config: " + config);
 
         BlockMappings.load();
+        ViaVersionUtil.init();
 
         this.playerManager = new BoarPlayerManager();
         this.alertManager = new AlertManager();

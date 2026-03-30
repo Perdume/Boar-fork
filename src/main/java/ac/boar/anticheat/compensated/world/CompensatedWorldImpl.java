@@ -15,7 +15,6 @@ import org.geysermc.geyser.level.block.Blocks;
 import org.geysermc.geyser.level.block.Fluid;
 import org.geysermc.geyser.level.block.property.Properties;
 import org.geysermc.geyser.level.block.type.BlockState;
-import org.geysermc.geyser.network.GameProtocol;
 
 import java.util.ArrayList;
 import java.util.List;

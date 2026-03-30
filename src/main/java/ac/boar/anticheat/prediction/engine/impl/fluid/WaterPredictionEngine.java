@@ -8,7 +8,6 @@ import org.cloudburstmc.protocol.bedrock.data.PlayerAuthInputData;
 import org.cloudburstmc.protocol.bedrock.data.entity.EntityFlag;
 import org.cloudburstmc.protocol.bedrock.data.inventory.ItemData;
 import org.geysermc.geyser.inventory.item.BedrockEnchantment;
-import org.geysermc.geyser.network.GameProtocol;
 import org.geysermc.mcprotocollib.protocol.data.game.entity.Effect;
 
 import java.util.Map;

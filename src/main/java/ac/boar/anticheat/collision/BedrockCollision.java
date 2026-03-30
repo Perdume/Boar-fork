@@ -13,7 +13,6 @@ import org.geysermc.geyser.level.block.type.*;
 import org.geysermc.geyser.level.physics.Axis;
 import org.geysermc.geyser.level.physics.BoundingBox;
 import org.geysermc.geyser.level.physics.Direction;
-import org.geysermc.geyser.network.GameProtocol;
 import org.geysermc.geyser.util.BlockUtils;
 
 import java.util.ArrayList;
